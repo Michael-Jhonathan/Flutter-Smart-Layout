@@ -13,7 +13,7 @@ Adicione ao seu `pubspec.yaml`:
 dependencies:
   smart_layout:
     git:
-      url: https://github.com/seu-usuario/smart_layout.git
+      url: https://github.com/Michael-Jhonathan/smart_layout.git
 ```
 
 ### 2. Via Caminho Local
