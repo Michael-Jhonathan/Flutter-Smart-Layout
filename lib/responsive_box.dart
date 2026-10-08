@@ -890,9 +890,7 @@ class ResponsiveBox extends StatelessWidget {
     final isColumn = layoutMode == ResponsiveLayoutMode.column;
     final bool autoWrap = wrap ?? (!isColumn && !hasFlexible);
 
-    final double actualGap = gap != null
-        ? gap! * autoScale * (constraints.maxWidth == double.infinity ? 1.0 : (constraints.maxWidth / gapReferenceWidth))
-        : 0.0;
+    final double actualGap = gap != null ? gap! * autoScale : 0.0;
 
     if (autoWrap) {
       if (animated) {
